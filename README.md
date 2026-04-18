@@ -1,8 +1,8 @@
 # GNN_Fraud_Detection
-Research & exploration into how graph neural networks (GNNs) can be used to better detect fraud in financial transactions. More coming very soon.
+Exploration of graph neural network approaches to financial fraud detection. Traditional ML methods treat transactions independently while GNNs capture the relational structure of transaction networks, enabling detection of complex fraud patterns such as money laundering rings and coordinated scam operations that evade conventional approaches.
 
-Natwest (UK-based bank) GNN fraud detection project:
-https://arxiv.org/pdf/2509.12255v1
+Current status: GraphSAGE implementation with pipeline under active development, targeting evaluation on the Elliptic Bitcoin dataset.
 
-Review of various GNN architectures for detecting financial fraud:
-https://arxiv.org/pdf/2509.12255v1
+References:
+NatWest GNN fraud detection projection: https://arxiv.org/pdf/2509.12255v1
+Review of published scientific literature on graph based fraud detection: https://www.researchgate.net/publication/394573113_Graph_Learning-Empowered_Financial_Fraud_Detection_Progress_and_Future_Directions
